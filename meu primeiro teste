@@ -5,14 +5,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Página Inicial</title>
     <style>
-        /* Reset básico */
+       
         * {
             margin: 0;
             padding: 0;
             box-sizing: border-box;
         }
 
-        /* Estilo do body */
+     
         body {
             font-family: 'Arial', sans-serif;
             background: linear-gradient(to bottom, #a2b6ff, #c4a4ff);
@@ -24,7 +24,7 @@
             text-align: center;
         }
 
-        /* Estilo do container */
+   
         .container {
             background-color: rgba(0, 0, 0, 0.2);
             border-radius: 10px;
