@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página Inicial</title>
+    <style>
+        /* Reset básico */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        /* Estilo do body */
+        body {
+            font-family: 'Arial', sans-serif;
+            background: linear-gradient(to bottom, #a2b6ff, #c4a4ff);
+            color: #ffffff;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            text-align: center;
+        }
+
+        /* Estilo do container */
+        .container {
+            background-color: rgba(0, 0, 0, 0.2);
+            border-radius: 10px;
+            padding: 20px;
+            width: 90%;
+            max-width: 400px;
+        }
+
+        h1 {
+            font-size: 1.8em;
+            margin-bottom: 10px;
+            color: #ffffff;
+        }
+
+        p {
+            font-size: 1em;
+            margin-bottom: 20px;
+            line-height: 1.5;
+        }
+
+        /* Links */
+        a {
+            color: #f2f2f2;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+        footer {
+            margin-top: 20px;
+            font-size: 0.8em;
+            color: #e0d7ff;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Bem-vindo a minha tarefa!</h1>
+        <p>Olá mundo!!!</p>
+
+        <p>
+            <a href="https://www.w3schools.com/" target="_blank">Acesse W3Schools</a><br>
+            <a href="https://github.com/math07math/testes/tree/main" target="_blank">Visite o meu GitHub</a>
+        </p>
+
+        <footer>
+            <p>Desenvolvido por Matheus | Curso de HTML</p>
+        </footer>
+    </div>
+</body>
+</html>
